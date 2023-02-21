@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+/* <!-------------------------- Header ----------------------------> */
+
+
+#header-main{
+    height: 25vh;
+    width: 100%;
+    background-color: #363543;
+    display: flex;
+    justify-content: space-between;
+}
+#head-left{
+    display: flex;
+    align-items: center;
+}
+.header-logo img{
+    height: 170px;
+    width: 280px;
+}
+.header-navigation ul{
+    display: flex;
+}
+.header-navigation ul li a{
+    color: #838391;
+    margin-right: 2rem;
+}
+.header-navigation ul li a:hover{
+    color:#FEBA17;
+    transition: all ease 0.3s;
+}
+#head-right{
+    margin-right: 5rem;
+}
+.header-socials a{
+    margin-right: 20px;
+    position: relative;
+}
+.header-socials a .fa-brands{
+    color: rgb(255, 255, 255);
+    line-height: 9rem;
+    font-size: 20px;
+}
+.header-socials a .fa-brands:hover{
+    color:#FEBA17;
+    transition: 0.3s;
+    transform: translateY(-8px);
+}
+/* <!-------------------------- Home ----------------------------> */
+
+
+#home{
+    height: 100vh;
+    width: 100%;
+    background-color: #363543;
+    display: flex;
+    background-image: url(./assets/images/Untitled__1_-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    padding: 0px 5.5rem;
+}
+#home-left{
+    display: flex;
+}
+.left-text{
+    margin-top: 6rem;
+    flex: 4;
+}
+.left-text h3{
+    color: #9998A6;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.left-text h1{
+    color: #ffffff;
+    font-size: 4rem;
+    margin-right: -14rem;
+}
+.right-img{
+    flex: 1;
+}
+.right-img img{
+    height: 500px;
+    width: 500px;
+    margin-right: -10rem;
+}
+.divider{
+    width: 45%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.divider hr{
+    padding: 1.5px 0px;
+    background-color: #FEBA17;
+    border-radius: 5px;
+    border: none;
+}
+.left-text p{
+    color: #dddada;
+    margin-right: -2rem;
+}
+#home-right{
+    margin-top: -22rem;
+}
+#home-right h5{
+    color:#ffffff;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-left: 3rem;
+}
+#home-right p{
+    color:#dddada;
+    margin-left: 3rem;
+}
+#home-right .social-icon{
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+}
+#home-right .social-icon a{
+    margin-right: 0.8rem;
+    background-color: #838391;
+    border-radius: 50%;
+    padding: 10px 12px 8px 12px;
+}
+#home-right .social-icon .fa-brands{
+    font-size: 20px;
+    color: #FEBA17;
+}
+#home-right .social-icon .fa-brands:hover{
+    color: #ffffff;
+    transition: 0.3s;
+}
+/* <!-------------------------- Our Clients ----------------------------> */
+
+
+#our-clients{
+    height: 25vh;
+    width: 100%;
+    background-color: #282834;
+}
+#our-clients--inner-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #363543;
+    margin-left:5rem;
+    margin-right:5rem;
+    padding: 2rem;
+    margin-top: -4rem;
+    -webkit-box-shadow: 0 0 10px #030303;
+        box-shadow: 0 0 10px #030303;
+}
+.our-clients--inner-section---box{
+    margin: 0px 2rem;
+}
+#our-clients--inner-section img{
+    padding: 1.2rem 2rem;
+    height: 70px;
+    width: 170px;
+    background-color: #282834;
+    border-radius: 10px;
+}
+/* <!-------------------------- What I Do ----------------------------> */
+
+#what-do{
+    height: 100vh;
+    width: 100%;
+    padding: 0px 5rem;
+    background-color: #282834;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.what-do-left--main-heading{
+    color: #ffffff;
+    font-size: 35px;
+    margin-bottom: 1rem;
+}
+.what-do-left--para{
+    color: #dddada;
+    font-size: 15px;
+    width: 40%;
+}
+.what-do-left--div1{
+    display: flex;
+    margin-top: 1rem;
+}
+.what-do-left--div1---box2{
+    margin-left: 4rem;
+}
+.what-do-left--div1---box----heading{
+    color: #FEBA17;
+    font-size: 30px;
+    font-weight: 600;
+}
+.what-do-left--div1---box----para{
+    color: #dddada;
+    font-size: 14px;
+}
+#what-do-right--column{
+    display: flex;
+    width: 25rem;
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
+}
+.what-do-right--column---box1 img{
+    height: 80px;
+    width: 120px;
+}
+.what-do-right--column---box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 5rem;
+}
+.what-do-right--colomn---box2----heading{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 500;
+}
+.what-do-right--column---box2----para{
+    color: #dddada;
+    font-size: 12px;
+}
+.what-do-right--column---box3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.what-do-right--column---box3 .fa-regular{
+    color:#FEBA17;
+    font-size: 22px;
+    font-weight: 500;
+}
+.what-do-right--column---box3 .fa-regular:hover{
+    transition: 0.3s;
+    transform: translateX(5px);
+}
+/* <!---------------------- Najaf  --------------------------> */
