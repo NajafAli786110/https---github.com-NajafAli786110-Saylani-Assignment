@@ -7,7 +7,9 @@
     font-family: 'Lato', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 /* <!-------------------------- Header ----------------------------> */
 
 
@@ -169,11 +171,13 @@
 
 /* <!-------------------------- Our Clients ----------------------------> */
 
-
 #our-clients {
     height: 25vh;
     width: 100%;
     background-color: #282834;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
 }
 
 #our-clients--inner-section {
@@ -181,12 +185,19 @@
     align-items: center;
     justify-content: space-around;
     background-color: #363543;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    height: 19vh;
+    width: 80%;
+    /* margin-left: 5rem;
+    margin-right: 5rem; */
     padding: 2rem;
     margin-top: -4rem;
     -webkit-box-shadow: 0 0 10px #030303;
     box-shadow: 0 0 10px #030303;
+}
+@media (min-width:1400px) {
+    #our-clients--inner-section {
+        margin-top: -8rem;
+    }
 }
 
 .our-clients--inner-section---box {
@@ -200,6 +211,7 @@
     background-color: #282834;
     border-radius: 10px;
 }
+
 
 /* <!-------------------------- What I Do ----------------------------> */
 
@@ -262,7 +274,7 @@
     flex-direction: column;
     justify-content: center;
     padding-left: 1rem;
-    padding-right: 5rem;
+    margin-right: 8rem;
 }
 
 .what-do-right--colomn---box2----heading {
@@ -308,7 +320,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 4rem;
+    /* padding-top: 2rem; */
 }
 
 #service-top h2 {
@@ -483,6 +495,7 @@
     font-size: 30px;
     font-weight: 300;
     margin-top: 2rem;
+    color: #ffffff;
 }
 
 #footer-inner .box1 p {
@@ -638,3 +651,27 @@
     background-color: #FEBA17;
     color: #161616;
     transition: all 0.4s;
+}
+
+
+/* <!-------------------------- Copyright ----------------------------> */
+
+
+
+#copyright{
+    height: 15vh;
+    width: 100%;
+    background-color: #282834;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copyright-text{
+    margin-top: 2rem;
+    color: #FEBA17;
+    font-size: 20px;
+}
+.copyright-text span{
+    color: #ffffff;
+    font-weight: 700;
+}
